@@ -7,7 +7,7 @@ OSA can be launched from a drone or racket and while falling it has two missions
 Among other OSA has built-in GPS so after lunch it can be found easily.
 
 ## Tabele of contents
-* [Mechanical design](#Mechanical design)
+* [Mechanical design](#mechanical-design)
 * [Contact](#contact)
 ## Mechanical design
 ## Contact
