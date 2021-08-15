@@ -1,15 +1,13 @@
 #  Project OSA
 
-OSA is minisatellite the size of a can that was designed to take part in ESA cansat 2021 competition 🛰️📡. Our project calls OSA (in Polish “Opadający Satelita Atmosferyczny” is loosely translated into “Falling Atmospheric Satellite”) and team - [OSATeam](https://www.osacan.eu/)
+OSA a is minisatellite the size of a can designed to participate in the ESA cansat 2021 competition 🛰️📡. Our project calls OSA (in Polish “Opadający Satelita Atmosferyczny” is loosely translated into “Falling Atmospheric Satellite”) and team - [OSATeam](https://www.osacan.eu/)
 
-OSA can be lunched from drone or racet and while falling it has two missions. Primary is to take the measurements of air temperature, preasure, humidity and sand it via lora radio to the ground station. Secondary is to take five air samples 🧪. 
+OSA can be launched from a drone or racket and while falling it has two missions. Primary is to take the measurements of air temperature, pressure, humidity and sand it via LoRa radio to the ground station. The secondary  is to take five air samples 🧪. 
 
-Among ather OSA has built in gps so after lunch it can be found easly.
+Among other OSA has built-in GPS so after lunch it can be found easily.
 
 ## Tabele of contents
 * [Mechanical design](#Mechanical design)
-* ed
-* ve
 * [Contact](#contact)
 ## Mechanical design
 ## Contact
