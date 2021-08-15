@@ -1,14 +1,19 @@
-  Welcome! 
+#  Project OSA
 
-We are a 4-person high school team from high school in Cracow, which decided to take part in the CanSat competition.
-We designed and built the minisatellite the size of a can 🛰️📡.
-In CanSat Poland finals our can was lunched from 2,5 km. We are delighted to announce that we won CanSat Poland 2020/2021 and we are going to represend our country in Europen finals.
+OSA is minisatellite the size of a can that was designed to take part in ESA cansat 2021 competition 🛰️📡. Our project calls OSA (in Polish “Opadający Satelita Atmosferyczny” is loosely translated into “Falling Atmospheric Satellite”) and team - [OSATeam](https://www.osacan.eu/)
 
-Our project calls OSA (in Polish “Opadający Satelita Atmosferyczny” is loosely translated into “Falling Atmospheric Satellite”) and team - OSATeam
+OSA can be lunched from drone or racet and while falling it has two missions. Primary is to take the measurements of air temperature, preasure, humidity and sand it via lora radio to the ground station. Secondary is to take five air samples 🧪. 
 
-Our project is fully open-source, and we are opened to suggestions and collaboration
+Among ather OSA has built in gps so after lunch it can be found easly.
 
-📫 Contact us!
+## Tabele of contents
+* [Mechanical design](#Mechanical design)
+* ed
+* ve
+* [Contact](#contact)
+## Mechanical design
+## Contact
+📫 We are opened to suggestions and collaboration. Contact us!
 - https://www.facebook.com/osacan.eu/
 - https://www.instagram.com/osateam_cansat/
 - osacansat@gmail.com
