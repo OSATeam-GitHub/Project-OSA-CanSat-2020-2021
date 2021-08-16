@@ -47,7 +47,14 @@ Both the main casing body ( main-mid ) and the electronic case are designed to b
 ## Electronic design
 
 ## OSA software
+Due to the OSA brain, OSA OS is an Arduino code. To make the code clean we wrote a library for controlling all OSA systems. 
 
+While being on the ground after turning on OSA takes measurements and sets current altitude (calculated from pressure and temperature) as initial altitude. Until detecting the opening of the parachute OSA will stay in the rest position. It means that the needle will be hidden between two probes so there will be lower chances of being damaged. After detecting the opening of the parachute OSA waits about a second to stabilize and then sets current altitude as final altitude. Then it calculates five altitudes on which it’s supposed to take the samples. 
+
+Independently OSA takes measurements from all sensors every second. OSA is equipped with a sensor that measures the pressure inside the pipe connected with the needle. According to that pressure while taking the sample we know whether the probe was taken or not. Measurements with data about the secondary mission and GPS data are saved on an SD card and after encoding they are being sent via LoRa radio to the ground station. OSA sends various data about the secondary mission so not only do we know whether the sample was taken or not, but also exactly the altitude it started and finished taking. Also, the altitude at which the parachute was opened is being saved. If it wasn’t for encoding, the RX buffer would get stacked. If for some reason any of the samples wasn’t taken, after taking all others OSA will come back and repeat taking those samples.
+
+
+## Ground station software
 ## Contact
 📫 We are opened to suggestions and collaboration. Contact us!
 - https://www.facebook.com/osacan.eu/
