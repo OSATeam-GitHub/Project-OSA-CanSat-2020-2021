@@ -53,7 +53,7 @@ Both the main casing body ( main-mid ) and the electronic case are designed to b
 - https://www.facebook.com/osacan.eu/
 - https://www.instagram.com/osateam_cansat/
 - osacansat@gmail.com
-- 
+- @OSATeam_CanSat
 ## Licence
 <!---
 OSATeam-GitHub/OSATeam-GitHub is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
