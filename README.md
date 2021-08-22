@@ -45,6 +45,7 @@ The blocker part is additionally added to help the needle stay in place.
 Both the main casing body ( main-mid ) and the electronic case are designed to be printed without any supports. They don't require as high precision as the carousel does.
 
 ## Electronic design
+OSA is powered by the CanSat kit, therefore it’s fully compatible with Arduino. Currently, we are working on a new PCB board for OSA. We will upload the design with the scheme soon.
 
 ## OSA software
 Due to the OSA brain, OSA OS is an Arduino code. To make the code clean we wrote a library for controlling all OSA systems. 
