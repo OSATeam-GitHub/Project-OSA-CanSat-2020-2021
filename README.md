@@ -45,8 +45,11 @@ The blocker part is additionally added to help the needle stay in place.
 Both the main casing body ( main-mid ) and the electronic case are designed to be printed without any supports. They don't require as high precision as the carousel does.
 
 ## Electronic design
-OSA is powered by the CanSat kit, therefore it’s fully compatible with Arduino. Currently, we are working on a new PCB board for OSA. We will upload the design with the scheme soon.
+OSA is powered by the CanSat kit, therefore it’s fully compatible with Arduino. Full CanSat kit documentation can be found on the ESERO Polska page in the statute, or right [here](https://github.com/CanSatKit/Documentation). On to the mainboard, you should sold GPS module as well as the  1/2 wave long antenna. [This](https://www.changpuak.ch/electronics/yagi_uda_antenna_DL6WU.php?fbclid=IwAR0hKYk1dh2FgNYhQmpAeVwOAlgjz0rPHka-r6Hd5ZqAI7iYF1GUxPW0EE0) calculator may be useful. 
 
+Currently, we are working on a new PCB board for OSA. We will upload the design with the scheme soon.
+### Ground station hardware
+OSA ground station is simply the CanSat kit board connected with a yagi directional antenna. The mainboard should be connected by USB with PC or laptop.
 ## OSA software
 Due to the OSA brain, OSA OS is an Arduino code. To make the code clean we wrote a library for controlling all OSA systems. 
 
@@ -54,8 +57,8 @@ While being on the ground after turning on OSA takes measurements and sets curre
 
 Independently OSA takes measurements from all sensors every second. OSA is equipped with a sensor that measures the pressure inside the pipe connected with the needle. According to that pressure while taking the sample we know whether the probe was taken or not. Measurements with data about the secondary mission and GPS data are saved on an SD card and after encoding they are being sent via LoRa radio to the ground station. OSA sends various data about the secondary mission so not only do we know whether the sample was taken or not, but also exactly the altitude it started and finished taking. Also, the altitude at which the parachute was opened is being saved. If it wasn’t for encoding, the RX buffer would get stacked. If for some reason any of the samples wasn’t taken, after taking all others OSA will come back and repeat taking those samples.
 
-
 ## Ground station software
+
 ## Contact
 📫 We are opened to suggestions and collaboration. Contact us!
 - https://www.facebook.com/osacan.eu/
