@@ -55,20 +55,20 @@ Currently, we are working on a new PCB board for OSA. We will upload the design 
 OSA ground station is simply the CanSat kit board connected with a yagi directional antenna. The mainboard should be connected by USB with PC or laptop.
 It will work with any antenna which fulfils requirments (the closer to requitments the better signal:
 
--Frequency     :  433  MHz
--Wavelength    :  693  mm
--Rod Diameter  :  10  mm
--Boom Diameter :  20  mm
--Boom Length   :  238  mm
--d/lambda      :  0.014    ( min.: 0.002 , max.: 0.01 )
--D/lambda      :  0.029    ( min.: 0.01 , max.: 0.05 )
--Elements      :  3
--Gain          :  5.23 dBd (approx.)
--Reflector Length   : 334 mm
--Reflector Position :  0 mm
--Dipole Position    : 166 mm
--Director #1 Position : 218 mm ,  Length : 315 mm
--Distance Dipole - Dir. #1 : 52 mm 
+- Frequency     :  433  MHz
+- Wavelength    :  693  mm
+- Rod Diameter  :  10  mm
+- Boom Diameter :  20  mm
+- Boom Length   :  238  mm
+- d/lambda      :  0.014    ( min.: 0.002 , max.: 0.01 )
+- D/lambda      :  0.029    ( min.: 0.01 , max.: 0.05 )
+- Elements      :  3
+- Gain          :  5.23 dBd (approx.)
+- Reflector Length   : 334 mm
+- Reflector Position :  0 mm
+- Dipole Position    : 166 mm
+- Director #1 Position : 218 mm ,  Length : 315 mm
+- Distance Dipole - Dir. #1 : 52 mm 
 
 [yagi antenna calculator](https://www.changpuak.ch/electronics/yagi_uda_antenna_DL6WU.php)
 
