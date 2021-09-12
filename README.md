@@ -51,6 +51,9 @@ Both the main casing body ( main-mid ) and the electronic case are designed to b
 OSA is powered by the CanSat kit, therefore it’s fully compatible with Arduino m0. Full CanSat kit documentation can be found on the ESERO Polska page in the statute, or right [here](https://github.com/CanSatKit/Documentation). On to the mainboard, you should sold GPS module as well as the  1/2 wave long antenna. [This](https://www.changpuak.ch/electronics/yagi_uda_antenna_DL6WU.php?fbclid=IwAR0hKYk1dh2FgNYhQmpAeVwOAlgjz0rPHka-r6Hd5ZqAI7iYF1GUxPW0EE0) calculator may be useful. 
 
 Currently, we are working on a new PCB board for OSA. We will upload the design with the scheme soon.
+
+![OsaCan-1](https://user-images.githubusercontent.com/88943059/132985075-b992912d-4d2b-4c65-b10b-7d3d00f4c0b6.jpg)
+
 ### Ground station hardware
 OSA ground station is simply the CanSat kit board connected with a yagi directional antenna. The mainboard should be connected by USB with PC or laptop.
 It will work with any antenna which fulfils requirments (the closer to requitments the better signal:
