@@ -84,8 +84,6 @@ Independently OSA takes measurements from all sensors every second, send it via 
 
 OSA encodes data which is send via radio, otherwise buffor would have stucked. 
 
-## Ground station software
-
 ## Contact
 📫 We are opened to suggestions and collaboration. Contact us!
 - https://www.facebook.com/osacan.eu/
